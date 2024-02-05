@@ -2,7 +2,7 @@
 <!--                    Hero                      -->
 <!-- ============================================ -->
 
-<section id="hero-330">
+<section id="hero">
     <div class="cs-container">
         <div class="cs-flex-group">
             <h1 class="cs-title"><span class="cs-accent">Professional</span> Cleaning Service for Your Home And Other Area</h1>
@@ -36,7 +36,7 @@
 
 /* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
-    #hero-330 {
+    #hero {
         /* Centers button */
         text-align: center;
         /* changes on tablet */
@@ -48,7 +48,7 @@
         /* prevents overflow from the lines extending past the screen width */
         overflow: hidden;
     }
-    #hero-330 .cs-background {
+    #hero .cs-background {
         /* Background Image */
         width: 100%;
         height: 100%;
@@ -58,7 +58,7 @@
         left: 0;
         z-index: -2;
     }
-    #hero-330 .cs-background:before {
+    #hero .cs-background:before {
         /* White Color Overlay */
         content: "";
         width: 100%;
@@ -73,7 +73,7 @@
         /* prevents the cursor from interacting with it */
         pointer-events: none;
     }
-    #hero-330 .cs-background img {
+    #hero .cs-background img {
         position: absolute;
         top: 0;
         left: 0;
@@ -84,13 +84,13 @@
         /* places the top of the image at the top of the parent */
         object-position: top;
     }
-    #hero-330 .cs-container {
+    #hero .cs-container {
         width: 100%;
         max-width: 80rem;
         margin: auto;
         position: relative;
     }
-    #hero-330 .cs-flex-group {
+    #hero .cs-flex-group {
         /* 456px - 626px */
         max-width: clamp(28.5rem, 62vw, 39.125rem);
         margin: auto;
@@ -100,7 +100,7 @@
         flex-wrap: wrap;
         box-sizing: border-box;
     }
-    #hero-330 .cs-title {
+    #hero .cs-title {
         /* 39px - 61px */
         font-size: clamp(2.4375rem, 6.4vw, 3.8125rem);
         font-weight: 900;
@@ -111,10 +111,10 @@
         color: var(--headerColor);
         position: relative;
     }
-    #hero-330 .cs-accent {
+    #hero .cs-accent {
         color: var(--primaryLight);
     }
-    #hero-330 .cs-text {
+    #hero .cs-text {
         /* 16px - 20px */
         font-size: clamp(1rem, 1.95vw, 1.25rem);
         line-height: 1.5em;
@@ -127,7 +127,7 @@
         margin-bottom: clamp(1.5rem, 4vw, 2.5rem);
         color: var(--bodyTextColor);
     }
-    #hero-330 .cs-button-group {
+    #hero .cs-button-group {
         width: 100%;
         display: flex;
         justify-content: center;
@@ -136,7 +136,7 @@
         gap: 1rem;
     }
   
-    #hero-330 .cs-button-transparent {
+    #hero .cs-button-transparent {
         font-size: 1rem;
         /* 46px - 56px */
         line-height: clamp(2.875rem, 5.5vw, 3.5rem);
@@ -156,7 +156,7 @@
         position: relative;
         z-index: 1;
     }
-    #hero-330 .cs-button-transparent:before {
+    #hero .cs-button-transparent:before {
         /* white hover box */
         content: "";
         /* 46px - 56px */
@@ -174,11 +174,11 @@
             width 0.3s,
             box-shadow 0.3s;
     }
-    #hero-330 .cs-button-transparent:hover:before {
+    #hero .cs-button-transparent:hover:before {
         width: 100%;
         box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     }
-    #hero-330 .cs-picture {
+    #hero .cs-picture {
         /* 46px - 56px */
         width: clamp(2.875rem, 5.5vw, 3.5rem);
         height: clamp(2.875rem, 5.5vw, 3.5rem);
@@ -191,7 +191,7 @@
         justify-content: center;
         align-items: center;
     }
-    #hero-330 .cs-image {
+    #hero .cs-image {
         width: 0.75rem;
         height: auto;
     }

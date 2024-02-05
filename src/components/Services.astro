@@ -2,7 +2,7 @@
 <!--                  Services                    -->
 <!-- ============================================ -->
 
-<section id="services-366">
+<section id="services">
     <div class="cs-container">
         <div class="cs-content">
             <span class="cs-topper">Our Services</span>
@@ -63,7 +63,7 @@
 
 /* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
-    #services-366 {
+    #services {
         padding: var(--sectionPadding);
     }
     @keyframes floatAnimation2 {
@@ -116,7 +116,7 @@
             opacity: 0;
         }
     }
-    #services-366 .cs-container {
+    #services .cs-container {
         width: 100%;
         max-width: 80rem;
         margin: auto;
@@ -126,7 +126,7 @@
         /* 48px - 64px */
         gap: clamp(3rem, 6vw, 4rem);
     }
-    #services-366 .cs-content {
+    #services .cs-content {
         /* set text align to left if content needs to be left aligned */
         text-align: center;
         width: 100%;
@@ -136,7 +136,7 @@
         align-items: center;
     }
 
-    #services-366 .cs-card-group {
+    #services .cs-card-group {
         width: 100%;
         margin: 0;
         padding: 0;
@@ -148,7 +148,7 @@
         /* 16px - 20px */
         column-gap: clamp(1rem, 2vw, 1.25rem);
     }
-    #services-366 .cs-item {
+    #services .cs-item {
         list-style: none;
         width: 100%;
         max-width: 31.25rem;
@@ -160,33 +160,33 @@
         box-sizing: border-box;
         transition: background-color 0.3s;
     }
-    #services-366 .cs-item:hover {
+    #services .cs-item:hover {
         background-color: var(--primary);
     }
-    #services-366 .cs-item:hover .cs-icon-wrapper:before,
-    #services-366 .cs-item:hover .cs-bubble:before,
-    #services-366 .cs-item:hover .cs-icon-wrapper:after,
-    #services-366 .cs-item:hover .cs-bubble:after {
+    #services .cs-item:hover .cs-icon-wrapper:before,
+    #services .cs-item:hover .cs-bubble:before,
+    #services .cs-item:hover .cs-icon-wrapper:after,
+    #services .cs-item:hover .cs-bubble:after {
         background-color: #449ffc;
     }
-    #services-366 .cs-item:hover .cs-icon {
+    #services .cs-item:hover .cs-icon {
         /* makes it white on hover */
         filter: grayscale(1) brightness(1000%);
     }
-    #services-366 .cs-item:hover .cs-h3 {
+    #services .cs-item:hover .cs-h3 {
         color: #fff;
     }
-    #services-366 .cs-item:hover .cs-item-text {
+    #services .cs-item:hover .cs-item-text {
         color: #fff;
     }
-    #services-366 .cs-link {
+    #services .cs-link {
         text-decoration: none;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
     }
-    #services-366 .cs-icon-wrapper {
+    #services .cs-icon-wrapper {
         width: 6.125rem;
         height: 7.5rem;
         margin-bottom: 1.5rem;
@@ -195,7 +195,7 @@
         align-items: flex-end;
         position: relative;
     }
-    #services-366 .cs-icon-wrapper:before {
+    #services .cs-icon-wrapper:before {
         /* Small Bubble */
         content: "";
         width: 1.6875rem;
@@ -213,7 +213,7 @@
         animation-iteration-count: infinite;
         transition: background-color 0.3s;
     }
-    #services-366 .cs-icon-wrapper:after {
+    #services .cs-icon-wrapper:after {
         /* Small Bubble */
         content: "";
         width: 1.6875rem;
@@ -232,14 +232,14 @@
         animation-iteration-count: infinite;
         transition: background-color 0.3s;
     }
-    #services-366 .cs-bubble {
+    #services .cs-bubble {
         position: absolute;
         width: 100%;
         height: 100%;
         top: 0;
         left: 0;
     }
-    #services-366 .cs-bubble:before {
+    #services .cs-bubble:before {
         /* Big Bubble */
         content: "";
         width: 3.9375rem;
@@ -258,7 +258,7 @@
         animation-iteration-count: infinite;
         transition: background-color 0.3s;
     }
-    #services-366 .cs-bubble:after {
+    #services .cs-bubble:after {
         /* Big Bubble */
         content: "";
         width: 3.125rem;
@@ -277,13 +277,13 @@
         animation-iteration-count: infinite;
         transition: background-color 0.3s;
     }
-    #services-366 .cs-icon {
+    #services .cs-icon {
         width: 4.5rem;
         height: auto;
         position: relative;
         z-index: 10;
     }
-    #services-366 .cs-h3 {
+    #services .cs-h3 {
         font-size: 1.25rem;
         font-weight: 900;
         text-align: center;
@@ -293,7 +293,7 @@
         color: var(--headerColor);
         transition: color 0.3s;
     }
-    #services-366 .cs-item-text {
+    #services .cs-item-text {
         /* 14px - 16px */
         font-size: clamp(0.875rem, 1.5vw, 1rem);
         text-align: center;
@@ -302,7 +302,7 @@
         color: var(--bodyTextColor);
         transition: color 0.3s;
     }
-    #services-366 .cs-button-solid {
+    #services .cs-button-solid {
         font-size: 1rem;
         /* 46px - 56px */
         line-height: clamp(2.875rem, 5.5vw, 3.5rem);
@@ -321,7 +321,7 @@
         /* prevents padding from adding to the width */
         box-sizing: border-box;
     }
-    #services-366 .cs-button-solid:before {
+    #services .cs-button-solid:before {
         content: "";
         position: absolute;
         height: 100%;
@@ -334,13 +334,13 @@
         border-radius: 0.25rem;
         transition: width 0.3s;
     }
-    #services-366 .cs-button-solid:hover:before {
+    #services .cs-button-solid:hover:before {
         width: 100%;
     }
 }
 /* Tablet - 768px */
 @media only screen and (min-width: 48rem) {
-    #services-366 .cs-card-group {
+    #services .cs-card-group {
         flex-direction: row;
         justify-content: space-between;
         flex-wrap: nowrap;

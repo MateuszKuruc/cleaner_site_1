@@ -5,10 +5,10 @@
 <section id="contact">
     <div class="cs-container">
         <div class="cs-content">
-            <span class="cs-topper">Contact Us</span>
-            <h2 class="cs-title">Get in Touch</h2>
+            <span class="cs-topper">Kontakt</span>
+            <h2 class="cs-title">Porozmawiajmy o współpracy</h2>
             <p class="cs-text">
-                We are a team of passionate and creative individuals dedicated to crafting captivating designs that leave a lasting impression.
+                Czekamy na Twoją wiadomość, jesteśmy dostępni od poniedziałku do piątku w godzinach 9:00 - 18:00.
             </p>
             <ul class="cs-ul">
                 <li class="cs-li">
@@ -16,7 +16,7 @@
                         <img aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/phone-76.svg" alt="phone icon" class="cs-icon" width="40" height="40" decoding="async">
                     </picture>
                     <div class="cs-flex-group">
-                        <span class="cs-header">Phone</span>
+                        <span class="cs-header">Telefon</span>
                         <a href="tel:888-4565-789
                         " class="cs-link">+1 (888) 4565 789
                         </a>
@@ -36,32 +36,32 @@
                         <img aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/pin-76.svg" alt="address icon" class="cs-icon" width="40" height="40" decoding="async">
                     </picture>
                     <div class="cs-flex-group">
-                        <span class="cs-header">Address</span>
-                        <a href="" class="cs-link">2553 Woodbridge Lane, Boston Ware 120</a>
+                        <span class="cs-header">Adres</span>
+                        <a href="" class="cs-link">Świadczymy usługi na terenie Katowic i okolicznych miast (+15km)</a>
                     </div>
                 </li>
             </ul>
         </div>
         <!--Form-->
         <form class="cs-form" id="cs-form-1392" name="Contact Form" method="post">
-            <h3 class="cs-h3">Make Appointment</h3>
+            <h3 class="cs-h3">Napisz do nas</h3>
             <label class="cs-label">
-                Name
-                <input class="cs-input" required type="text" id="name-1392" name="name" placeholder="Name">
+                Imię i nazwisko lub nazwa firmy
+                <input class="cs-input" required type="text" id="name-1392" name="name" placeholder="Nazwa">
             </label>
             <label class="cs-label cs-email">
                 Email
-                <input class="cs-input" required type="email" id="email-1392" name="email" placeholder="Email">
+                <input class="cs-input" required type="email" id="email-1392" name="email" placeholder="email@nazwafirmy.pl">
             </label>
             <label class="cs-label cs-phone">
-                Phone
-                <input class="cs-input" required type="number" id="phone-1392" name="phone" placeholder="Phone">
+                Telefon
+                <input class="cs-input" required type="number" id="phone-1392" name="phone" placeholder="+48 XXX XXX XXX">
             </label>
             <label class="cs-label">
-                Message
-                <textarea class="cs-input cs-textarea" required name="Message" id="message-1392" placeholder="Write message..."></textarea>
+                Wiadomość
+                <textarea class="cs-input cs-textarea" required name="Message" id="message-1392" placeholder="Napisz w czym możemy Ci pomóc i kiedy możemy się skontaktować"></textarea>
             </label>
-            <button class="cs-button-solid cs-submit" type="submit">Send Message</button>
+            <button class="cs-button-solid cs-submit" type="submit">Prześlij formularz</button>
         </form>
     </div>
 </section>
@@ -74,9 +74,10 @@
 <section id="footer-1392">
     <div class="cs-container">
         <div class="cs-top">
-            <a aria-label="go back to home" class="cs-logo" href="">
+            <!-- <a aria-label="go back to home" class="cs-logo" href="">
                 <img class="cs-logo-img" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Logos/agency-logo.svg" alt="logo" width="209" height="40">
-            </a>
+            </a> -->
+            <h2 class="title">Nazyr - usługi sprzątania</h2>
             <ul class="cs-ul">
                 <li class="cs-li">
                     <a href="#hero" class="cs-link">Strona główna</a>
@@ -107,6 +108,10 @@
 
 /* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
+    .title {
+        color: #fff;
+        text-transform: uppercase;
+    }
     #contact {
         padding: var(--sectionPadding);
         padding-bottom: 0;
